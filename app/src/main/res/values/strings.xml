@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="unit_number">Enter a unit</string>
+    <string name="enter_button">Enter</string>
+    <string name="spinner_selection">Select Unit</string>
+    <string name="clear_button">clear</string>
+
+    <string-array name="spinner">
+        <item>Tab to Metric</item>
+        <item>Tsb to Metric</item>
+    </string-array>
+</resources>
