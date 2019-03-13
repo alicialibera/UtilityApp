@@ -10,18 +10,22 @@
     <EditText
         android:id="@+id/input_text"
         android:ems="10"
+        android:textSize="40dp"
         android:inputType="number"
-        android:layout_width="match_parent"
-        android:layout_height="70dp" />
-
-    <TextView
-        android:id="@+id/output_text"
-        android:textSize="50sp"
         android:layout_width="match_parent"
         android:layout_height="70dp" />
 
     <Spinner
         android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/output_text"
+        android:textSize="40dp"
+        android:textColor="@color/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_width="match_parent"
         android:layout_height="70dp" />
 
