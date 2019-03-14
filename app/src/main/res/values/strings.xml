@@ -5,8 +5,25 @@
     <string name="spinner_selection">Select Unit</string>
     <string name="clear_button">clear</string>
 
-    <string-array name="spinner">
-        <item>Tab to Metric</item>
-        <item>Tsb to Metric</item>
+    <string-array name="string_array_name">
+        <item>string_value1</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+    </string-array>
+
+    <string-array name="units_array">
+        <item>grams to tab</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
     </string-array>
 </resources>

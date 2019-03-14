@@ -10,7 +10,7 @@
     <EditText
         android:id="@+id/input_text"
         android:ems="10"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="70dp" />
@@ -18,27 +18,30 @@
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="70dp"
+        android:entries="@array/units_array" />
 
     <TextView
         android:id="@+id/output_text"
-        android:textSize="40dp"
-        android:textColor="@color/textColour"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:textColor="@color/textColour"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/enter_button"
-        android:onClick="enter"
-        android:text="@string/enter_button"
         android:layout_width="match_parent"
-        android:layout_height="70dp" />
+        android:layout_height="70dp"
+        android:onClick="onClickEnter"
+        android:text="@string/enter_button"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/clear_button"
-        android:onClick="clear"
+        android:onClick="onClickClear"
+        android:textSize="20dp"
         android:text="@string/clear_button"
         android:layout_width="match_parent"
         android:layout_height="70dp" />

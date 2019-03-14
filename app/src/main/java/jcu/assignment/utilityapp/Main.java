@@ -1,31 +1,25 @@
 package jcu.assignment.utilityapp;
 
-import java.util.Scanner;
-
 public class Main {
-    //add working spinner
-    //code spinner options
+    //get spinner variables
+    //test variable to find equation match
+    //use equation
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int number;
-        number = input.nextInt();
-    }
-
-    public int convertUnit(int i) {
+    public static int getResult(int i) {
         int number = i;
-        int conversionType;
-        conversionType = getUnitTypes();
-
-        int totalNumber;
-        totalNumber = number * conversionType;
-
-        int result = totalNumber;
+//        int unitEquation;
+        int finalNumber = number;
+        int result = finalNumber;
         return result;
     }
 
-    public static int getUnitTypes() {
-        int result = 2;
-        return result;
+    public static String getEquation(String spinner) {
+        String equation;
+        if (spinner.equals("grams to tab")) {
+            equation = "1";
+        } else {
+            equation = "3";
+        }
+        return equation;
     }
 }
