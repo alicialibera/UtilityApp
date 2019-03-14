@@ -28,15 +28,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickEnter(View view) {
         EditText editText = findViewById(R.id.input_text);
-        int unitInput = main.getResult(Integer.parseInt(editText.getText().toString()));
+        int unitInput = main.checkNumber(Integer.parseInt(editText.getText().toString()));
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         String unitType = String.valueOf(spinner.getSelectedItem());
 
-        String spinnerType = Main.getEquation(unitType);
-        int equation = Integer.valueOf(spinnerType);
-        int totalNumber = unitInput * equation;
-        int result = totalNumber;
+        String unitTypeEquation = Main.getEquation(unitType);
+        int equation = Integer.valueOf(unitTypeEquation);
+        int result = Main.calculateResult(unitInput, equation);
 
         TextView textView = (TextView) findViewById(R.id.output_text);
         String finalResult = String.valueOf(result);
@@ -48,11 +47,5 @@ public class MainActivity extends AppCompatActivity {
         editText.setText("");
         TextView textView = (TextView) findViewById(R.id.output_text);
         textView.setText("");
-//        finish();
-//        overridePendingTransition( 0, 0);
-//        startActivity(getIntent());
-//        overridePendingTransition( 0, 0);
     }
 }
-//References
-//https://developer.android.com/guide/topics/ui/controls/spinner#java

@@ -2,23 +2,11 @@
     <string name="app_name">Unit Converter</string>
     <string name="unit_number">Enter a unit</string>
     <string name="enter_button">Enter</string>
-    <string name="spinner_selection">Select Unit</string>
     <string name="clear_button">clear</string>
 
-    <string-array name="string_array_name">
-        <item>string_value1</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>F</item>
-        <item>G</item>
-        <item>H</item>
-    </string-array>
-
     <string-array name="units_array">
+        <item>Select unit</item>
         <item>grams to tab</item>
-        <item>B</item>
         <item>C</item>
         <item>D</item>
         <item>E</item>
